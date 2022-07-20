@@ -5,10 +5,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 //annotation spring app
 @SpringBootApplication
 public class KpiApplication {
-
 	private String message = "hello!"
+	private String world = "World!"
+
 	public static void main(String[] args) {
-		System.out.println(message);
+		System.out.println(message+world);
 		SpringApplication.run(KpiApplication.class, args);
 	}
 }
